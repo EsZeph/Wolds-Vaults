@@ -7,75 +7,6 @@
         "max": 15
       },
       "pool": [
-        {
-          "weight": 80,
-          "pool": [
-            {
-              "weight": 2,
-              "item": {
-                "id": "the_vault:supply_box",
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 1
-                }
-              }
-            },
-            {
-              "weight": 1,
-              "item": {
-                "id": "the_vault:vault_alloy",
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 1
-                }
-              }
-            },
-            {
-              "weight": 12,
-              "item": {
-                "id": "the_vault:ornate_chain",
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 1
-                }
-              }
-            },
-            {
-              "weight": 12,
-              "item": {
-                "id": "the_vault:ornate_ingot",
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 2
-                }
-              }
-            },
-            {
-              "weight": 8,
-              "item": {
-                "id": "the_vault:velvet",
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 1
-                }
-              }
-            },
-            {
-              "weight": 16,
-              "item": {
-                "id": "the_vault:soot",
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 2
-                }
-              }
-            },
             {
               "weight": 6,
               "item": {
@@ -98,8 +29,8 @@
                 "id": "the_vault:wild_focus",
                 "count": {
                   "type": "uniform",
-                  "min": 1,
-                  "max": 1
+                  "min": 4,
+                  "max": 12
                 }
               }
             },
@@ -109,8 +40,8 @@
                 "id": "the_vault:carbon_nugget",
                 "count": {
                   "type": "uniform",
-                  "min": 3,
-                  "max": 6
+                  "min": 8,
+                  "max": 16
                 }
               }
             },
@@ -120,24 +51,11 @@
                 "id": "the_vault:carbon",
                 "count": {
                   "type": "uniform",
-                  "min": 1,
-                  "max": 1
+                  "min": 4,
+                  "max": 8
                 }
               }
             },
-            {
-              "weight": 2,
-              "item": {
-                "id": "the_vault:vault_scrap",
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 1
-                }
-              }
-            }
-          ]
-        },
         {
           "weight": 8,
           "pool": [
@@ -158,8 +76,8 @@
                 "id": "the_vault:nullifying_focus",
                 "count": {
                   "type": "uniform",
-                  "min": 1,
-                  "max": 1
+                  "min": 4,
+                  "max": 12
                 }
               }
             },
@@ -169,24 +87,11 @@
                 "id": "the_vault:chaotic_focus",
                 "count": {
                   "type": "uniform",
-                  "min": 1,
-                  "max": 1
+                  "min": 4,
+                  "max": 12
                 }
               }
             },
-            {
-              "weight": 1,
-              "item": {
-                "id": "the_vault:supply_box",
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 1
-                }
-              }
-            }
-          ]
-        },
         {
           "weight": 2,
           "pool": [
@@ -196,8 +101,8 @@
                 "id": "the_vault:waning_focus",
                 "count": {
                   "type": "uniform",
-                  "min": 1,
-                  "max": 1
+                  "min": 4,
+                  "max": 12
                 }
               }
             },
@@ -207,8 +112,8 @@
                 "id": "the_vault:waxing_focus",
                 "count": {
                   "type": "uniform",
-                  "min": 1,
-                  "max": 1
+                  "min": 4,
+                  "max": 12
                 }
               }
             },
@@ -218,8 +123,8 @@
                 "id": "the_vault:fundamental_focus",
                 "count": {
                   "type": "uniform",
-                  "min": 1,
-                  "max": 1
+                  "min": 4,
+                  "max": 12
                 }
               }
             },
@@ -389,7 +294,7 @@
               }
             },
             {
-              "weight": 2,
+              "weight": 7,
               "item": {
                 "id": "the_vault:map",
                 "nbt": {
